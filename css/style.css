@@ -4,6 +4,15 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
 
+@font-face {
+  font-family: "Faxi";
+  src: url("Faxi-Regular.woff2") format("woff2"),
+    url("Faxi-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -15,26 +24,14 @@ use the fonts in other ways in the font hierarchy etc. */
 /* change / delete some of these - note: all variables are listed twice */
 
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --bg-color: #ffcd00;
+  --link-color: #003087;
+  --link-hover-color: #c8102e;
+  --color-4: #eacccd;
+  --color-5: #191102;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
-  --main-text-color: #000;
-
-  --white-space: 1rem;
-
-  --bg-color: #000;
-  --link-color: #000;
-  --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
-
-  --primary-font: sans-serif;
-  --secondary-font: serif;
+  --primary-font: "Faxi";
+  --secondary-font: "Merriweather", serif;
   --main-text-color: #000;
 
   --white-space: 2rem;
