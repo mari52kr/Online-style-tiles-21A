@@ -66,14 +66,14 @@ footer {
   text-transform: uppercase;
   letter-spacing: -2px;
   padding-right: 0.75em;
-  font-weight: bold;
-  color: white;
+  color: #003087;
 }
 
 .header-wrapper h2 {
   font-size: 1.6em;
+  font-family: "merriweather", serif;
   color: rgba(255, 255, 255, 0.95);
-  font-weight: bold;
+  font-weight: normal;
   margin: var(--white-space) 0;
 }
 
@@ -138,25 +138,24 @@ ul li:last-child {
 }
 
 .textures li {
-  height: 30vw;
-  width: 40%;
-  margin-right: 5vw;
+  height: 13vw;
+  width: 13vw;
+  margin-right: 2vw;
 }
-
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/Tinto_Instagram_2.png) top left repeat;
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
+  background: url(../img/Tinto_Instagram_3.png) top left repeat;
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/Tinto_Instagram_2.png) top left repeat;
 }
 
 .texture-swatch-3 {
-  background: url(../img/white_paperboard.png) top left repeat;
+  background: url(../img/Tinto_Instagram_4.png) top left repeat;
 }
 
 .images ul {
@@ -292,7 +291,8 @@ footer {
   }
 
   .textures li {
-    height: 15vw;
+    height: 13vw;
+    width: 13vw;
   }
 }
 
