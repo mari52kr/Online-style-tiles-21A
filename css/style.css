@@ -56,7 +56,7 @@ footer {
 }
 
 .full-width {
-  background: var(--bg-color);
+  background: var(--color-5);
   color: white;
   width: 100%;
 }
@@ -79,7 +79,6 @@ footer {
 
 .header-wrapper h3 {
   font-size: 1.2rem;
-  font-style: italic;
 }
 
 .header-wrapper h4 {
@@ -96,7 +95,6 @@ section {
 }
 
 .section-heading {
-  font-style: italic;
   font-size: 1.3rem;
   color: #777;
   margin: 0.5rem 0;
@@ -140,8 +138,8 @@ ul li:last-child {
 }
 
 .textures li {
-  height: 13vw;
-  width: 13vw;
+  height: 22vw;
+  width: 22vw;
   margin-right: 2vw;
 }
 .texture-swatch-1 {
@@ -227,7 +225,6 @@ button:active {
 
 .h2-sample {
   font-family: var(--secondary-font);
-  font-style: italic;
   font-size: 1.25rem;
 }
 
@@ -239,10 +236,6 @@ p.typography-sample {
 
 strong {
   font-weight: bold;
-}
-
-em {
-  font-style: italic;
 }
 
 a {
@@ -276,10 +269,6 @@ p[class*="font-details-"] {
 
 .adjectives ul {
   flex-direction: column;
-}
-
-footer {
-  font-style: italic;
 }
 
 @media (min-width: 800px) {
